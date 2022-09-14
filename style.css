@@ -153,7 +153,7 @@ section .title::after{
     color: var(--clr-accent);
 }
 .navbar.sticky .menu li a:hover,
-.navbar .menu li svg:hover
+.navbar .menu li i:hover
 {
     color:  var(--clr-accent);
 }
@@ -164,7 +164,7 @@ section .title::after{
     margin-left: 25px;
     cursor: pointer;
 }
-.navbar .menu li svg{
+.navbar .menu li i{
     color: var(--foreground);
 }
 
@@ -296,16 +296,15 @@ section .title::after{
     text-decoration: none;  
     font-size: 2rem;
 }
-.home .home-content .social-media li a svg{
+.home .home-content .social-media li a i{
     color: var(--foreground);
 }
  
 .home .home-content .social-media li:hover {
     transform: scale(1.5);
-    color: var(--clr-accent);
   }
 
-.home .home-content .social-media li:hover a svg{
+.home .home-content .social-media li:hover a i{
     color: var(--clr-accent);
 }
 
@@ -356,7 +355,7 @@ section .title::after{
       z-index: 100;
 }
 
-/* ------- SINGLE PROJECY DETAILS PAGE -------- */
+/* ------- SINGLE PROJECT DETAILS PAGE -------- */
 .small-container {
   max-width: 100%;
   margin:50px auto;
@@ -373,9 +372,6 @@ section .title::after{
   flex-basis: 50%;
   min-width: 360px;
 }
-
-
-
 .col-2 img {
   max-width: 100%;
   padding: 50px 0;
@@ -423,7 +419,7 @@ section .title::after{
 
 }
 
-.single-project svg {
+.single-project i {
   color: var(--foreground);
    margin-left: 10px; 
 }
@@ -552,12 +548,12 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card svg{
+.services .serv-content .card i{
     font-size: 50px;
     color: var(--clr-accent);
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover svg{
+.services .serv-content .card:hover i{
     color: var(--foreground);
 }
 .services .serv-content .card .text{
@@ -657,7 +653,7 @@ section .title::after{
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .tab-contents ul li svg {
+  .tab-contents ul li i {
     font-size: 50px;
   }
   .tab-contents.trainings ul {
